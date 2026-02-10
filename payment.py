@@ -1,4 +1,7 @@
-from utils import euro_formater,ask_yes_no
+"""
+Alles run um den Bezahlvorgang.
+"""
+from utils import euro_formater, ask_yes_no
 from config import ACCEPTED_COINS
 
 def payment_process(price: float) -> tuple[bool, float]:

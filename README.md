@@ -15,7 +15,7 @@
     Water: 150ml
     Milk: 50ml
     Coffee: 75g
-    Money: 35,50?
+    Money: 35,50€
   ```
 
 ## Zustandsprüfung
@@ -24,7 +24,7 @@
 
 ## Bezahlvorgang
 - Vorher Zutaten prüfen
-- Nur Münzen erlaubt: `0,05? | 0,10? | 0,20?...`
+- Nur Münzen erlaubt: `0,05€ | 0,10€ | 0,20€...`
 - Annahme: Der Automat hat unendlich viel Rückgeld
 - Prüfen ob echtes Geld
 - Benutzer kann jederzeit Bezahlvorgang abbrechen
@@ -43,4 +43,11 @@
 - `Fill milk`: Milchvorrat zurücksetzen
 - `Fill water`
 - `Take money`
- 
+
+## Flowchart für die Anwendung
+
+<img src="img/Kaffeeautomat_flowchart.png" alt="Flowchart Kaffeeautomat" width=60%>
+
+## Allgemeines zu CPS
+
+<img src="img/CPS.png" alt="Flowchart Kaffeeautomat" width=60%>
